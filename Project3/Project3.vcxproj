@@ -120,8 +120,10 @@
     <ClInclude Include="diceSet.h" />
     <ClInclude Include="human.h" />
     <ClInclude Include="Main.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="scoreDice.h" />
     <ClInclude Include="stan.h" />
     <ClInclude Include="tim.h" />
   </ItemGroup>
@@ -131,7 +133,9 @@
     <ClCompile Include="diceSet.cpp" />
     <ClCompile Include="human.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="scoreDice.cpp" />
     <ClCompile Include="stan.cpp" />
     <ClCompile Include="tim.cpp" />
   </ItemGroup>

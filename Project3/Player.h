@@ -12,9 +12,13 @@ protected:
 
 	Player(string name, int score, int roundScore, bool isInGame);
 	
+
 	~Player();
 
-private:
+
+	void AddScore(int value);
+
+protected:
 	string Name;
 	int score = 0;
 	int roundScore = 0;
